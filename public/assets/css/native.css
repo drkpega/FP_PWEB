@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Montserrat&display=swap');
+
+.w-full {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+.mt-1 {
+  margin-top: 0.25rem;
+}
+.mt-9 {
+  margin-top: 2.25rem;
+}
+.bottom-0 {
+  bottom: 0;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.items-center {
+  align-items: center;
+}
+.items-between {
+  align-items: space-between;
+}
+.items-start {
+  align-items: flex-start;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-1 {
+  flex: 1;
+}
+.flex-2 {
+  flex: 2;
+}
+.rounded-full {
+  border-radius: 9999px;
+}
+.grid-flow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.mt-3 {
+  margin-top: 0.75rem;
+}
+.gap-3 {
+  gap: 0.75rem;
+}
+p {
+  margin: 0;
+}
+.underline {
+  text-decoration: underline;
+}
+.h1 {
+  height: 1px;
+}
+.bg-drak {
+  background-color: #000000;
+}
+.text-center {
+  text-align: center;
+}
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+.mt-3 {
+  margin-top: 0.75rem;
+}
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+  background-color: #ffffff;
+  margin: 0;
+}
+.font-bold {
+  font-weight: 700;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.p-1 {
+  padding: 0.25rem;
+}
+.p-5 {
+  padding: 1.25rem;
+}
+
+.border {
+  border: 1px solid #000000;
+}
+.border-l {
+  border-left: 1px solid #000000;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.bg-green {
+  background-color: #318247;
+}
+.bg-green-100 {
+  background-color: #8d908e;
+}
+.text-green-200 {
+  color: #6aab7c;
+}
+.opacity-50 {
+  opacity: 0.5;
+}
+.mix-blend-multiply {
+  mix-blend-mode: multiply;
+}
+.bg-green-primary {
+  background-color: #8bd7a0;
+}
+.bg-green-secondary {
+  background-color: #aed1b8;
+}
+.bg-green-tritery {
+  background-color: #24d407;
+}
+.bg {
+  background-color: #ccd7d0;
+}
+
+.bg-secondary {
+  background-color: #d9d9d9;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h-hero {
+  height: 80vh;
+}
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.py-9 {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+/* Navigation */
+.rumah-sakit {
+  width: 70%;
+  height: 100px;
+  padding-top: 6px;
+  padding-left: 42px;
+  padding-right: 42px;
+  padding-bottom: 6px;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 1rem;
+}
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.h-nav {
+  height: 60px;
+}
+.gap-4 {
+  gap: 1rem;
+}
+
+.nav-button {
+  background-color: #ffffff;
+  padding: 12px;
+  cursor: pointer;
+}
+.nav-button:hover {
+  background-color: #d9d9d9;
+}
+
+/* Buton */
+.button-primary {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.button-secondary {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.h-card {
+  height: 300px;
+}
+.h-card-1 {
+  height: 150px;
+}
