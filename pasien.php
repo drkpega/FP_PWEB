@@ -2,6 +2,6 @@
 
 $page = 'pasien';
 $login = true;
-$childView = 'src/home-pasien.php';
+$childView = 'src/pages/home-pasien.php';
 include ('src/layout/Layout.php');
 ?>

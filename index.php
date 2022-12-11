@@ -4,7 +4,7 @@
 // Modifikasi Data sebelum ditampilkan
 
 $page = 'home';
-$childView = 'src/home.php';
+$childView = 'src/pages/home.php';
 $sidebar = 'src/components/Sidebar.php';
 include ('src/layout/Layout.php');
 
