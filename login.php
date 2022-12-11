@@ -38,6 +38,11 @@
         <div class="flex justify-center items-center mt-9">
           <button class="button-login text-2xl">Masuk</button>
         </div>
+        <div class="mt-3">
+          <a class="font-bold" href="/daftar.php">
+            <p class="text-center">Buat Akun</p>
+          </a>
+        </div>
       </form>
     </div>
   </section>
