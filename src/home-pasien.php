@@ -1,5 +1,3 @@
-
-
 <main>
   <section class="bg-green-primary">
     <div class="container py-9">

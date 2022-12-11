@@ -9,6 +9,9 @@ if ($page == "pasien" && $login == true) {
   // Navbar Umum
   include 'src/layout/Navbar.php';
 }
+if ($sidebar) {
+  include ($sidebar);
+}
 include ($childView);
 include 'src/layout/Footer.php';
 echo "</body>";
