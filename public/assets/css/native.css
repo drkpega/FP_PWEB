@@ -58,6 +58,18 @@ h2 {
   font-size: 1.125rem;
   line-height: 1.5rem;
 }
+.justify-end {
+  justify-content: flex-end;
+}
+textarea {
+  width: 90%;
+  height: 100px;
+  border: 1px solid #000000;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: #e7eae8;
+  font-size: 1rem;
+}
 .justify-center {
   justify-content: center;
 }
@@ -243,6 +255,13 @@ body {
 .left-1 {
   left: 0.25rem;
 }
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.mt-2 {
+  margin-top: 0.5rem;
+}
 .border {
   border: 1px solid #000000;
 }
@@ -255,10 +274,19 @@ body {
 .cursor-pointer {
   cursor: pointer;
 }
+.text-left {
+  text-align: left;
+}
 .container {
-  max-width: 1200px;
+  max-width: 88%;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 1rem 1rem;
+}
+.col-12 {
+  width: 24%;
+}
+.ml-12 {
+  margin-left: 3rem;
 }
 .bg-green {
   background-color: #318247;
@@ -485,7 +513,10 @@ body {
   font-weight: 600;
   cursor: pointer;
 }
-
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
 .h-card {
   height: 300px;
 }
@@ -503,7 +534,7 @@ thead {
 th {
   border: 1px solid #000000;
   padding: 8px;
-  text-align: left;
+  text-align: center;
 }
 tbody {
   background-color: #ffffff;
@@ -572,4 +603,16 @@ td {
   border-radius: 4px;
   font-weight: 600;
   cursor: pointer;
+}
+.text-red {
+  color: tomato;
+}
+.button-outline {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid #000000;
 }
