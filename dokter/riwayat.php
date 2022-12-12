@@ -9,7 +9,7 @@ include '../src/layout/dokter/Navbar.php';
   <section class="bg-green-primary">
     <div class="container">
       <div class="flex justify-between items-center">
-        <h2 class="font-bold py-2">Riwayat Pembayaran</h2>
+        <h2 class="font-bold py-2">Riwayat</h2>
   
         <div class="flex items-center justify-center">
           <p>Filter dengan</p>
@@ -46,7 +46,7 @@ include '../src/layout/dokter/Navbar.php';
             <p>RS Bhayangkara Surabaya</p>
           </div>
           <div class="border-r px-6 py-4">
-            <a class="text-red" href="/pembayaran.php?id=1">Lebih Lanjut  ></a>
+            <a class="text-red" href="../dokter/riwayat-detail.php">Lebih Lanjut  ></a>
           </div>
         </div>
       </div>
@@ -73,7 +73,7 @@ include '../src/layout/dokter/Navbar.php';
             <p>RS Bhayangkara Surabaya</p>
           </div>
           <div class="border-r px-6 py-4">
-            <a class="text-red" href="/pembayaran.php?id=1">Lebih Lanjut  ></a>
+            <a class="text-red" href="../dokter/riwayat-detail.php">Lebih Lanjut  ></a>
           </div>
         </div>
       </div>
@@ -100,7 +100,7 @@ include '../src/layout/dokter/Navbar.php';
             <p>RS Bhayangkara Surabaya</p>
           </div>
           <div class="border-r px-6 py-4">
-            <a class="text-red" href="/pembayaran.php?id=1">Lebih Lanjut  ></a>
+            <a class="text-red" href="../dokter/riwayat-detail.php">Lebih Lanjut  ></a>
           </div>
         </div>
       </div>

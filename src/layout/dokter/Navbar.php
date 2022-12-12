@@ -6,7 +6,7 @@
     </div>
     <div class="flex items-center gap-3">
       <div>
-        <p>Riwayat</p>
+        <a href="../../../dokter/riwayat.php">Riwayat</a>
       </div>
       <div class="border-l px-4">
         <a href="/login.php">
@@ -14,7 +14,7 @@
         </a>
       </div>
       <div class="px-4">
-        <a href="/login.php">
+        <a href="/dokter">
           <img src="../public/assets/images/icons/avatar.png" alt="Gear" width="30" height="30"/>
         </a>
       </div>
