@@ -1,7 +1,13 @@
+<?php
+  include ('koneksi.php');
+
+  session_start();
+?>
+
 <main>
   <section class="bg-green-primary">
     <div class="container py-9">
-      <p class="text-3xl font-bold underline">Hai Syss... </p>
+      <p class="text-3xl font-bold underline">Hai <b><?php echo $session['username'] ?></b> </p>
       <p class="text-xl font-bold mt-9 text-center"> Cek kelengkapan profilmu dulu yuk!!</p>
       <p class="text-xl font-bold mt-9">Jadwal Reservasi</p>
       <!-- Table Jadwal Reservasi -->
@@ -107,23 +113,23 @@
           <p class="font-bold">Layanan Khusus</p>
 
           <div class="mt-9 flex justify-between items-center">
-            <div>
+            <div><a href="src/pages/home-layanan-khusus.php">
               <div class="bg-green-300 rounded-2xl">
                 <img src="/public/assets/images/layanan-khusus/1.png" alt="" width="100%" height="100%">
               </div>
-              <p class="text-center">Tes COVID </p>
+              <p class="text-center">Tes COVID</p></a>
             </div>
-            <div>
+            <div><a href="src/pages/home-layanan-vaksin.php">
               <div class="bg-green-300 rounded-2xl">
                 <img src="/public/assets/images/layanan-khusus/2.png" alt="" width="100%" height="100%">
               </div>
-              <p class="text-center">Vaksin </p>
+              <p class="text-center">Vaksin</p></a>
             </div>
-            <div>
+            <div><a href="src/pages/home-layanan-terapi.php">
               <div class="bg-green-300 rounded-2xl">
                 <img src="/public/assets/images/layanan-khusus/3.png" alt="" width="100%" height="100%">
               </div>
-              <p class="text-center">Terapi</p>
+              <p class="text-center">Terapi</p></a>
             </div>
           </div>
         </div>

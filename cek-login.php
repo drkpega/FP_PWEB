@@ -11,7 +11,7 @@ $password = $_POST['password'];
 
  
 // menyeleksi data user dengan username dan password yang sesuai
-$login = mysqli_query($koneksi,"select * from akun where username ='$username' and password ='$password'");
+$login = mysqli_query($conn,"select * from akun where username ='$username' and password ='$password'");
 // menghitung jumlah data yang ditemukan
 $cek = mysqli_num_rows($login);
  
@@ -27,7 +27,7 @@ if($cek > 0){
 		$_SESSION['username'] = $username;
 		$_SESSION['level_akun'] = "2";
 		// alihkan ke halaman dashboard admin
-		header("location:dokter.php");
+		header("location:dokter/home.php");
  
 	// cek jika user login sebagai pegawai
 	}else if($data['level_akun']=="1"){
@@ -35,7 +35,7 @@ if($cek > 0){
 		$_SESSION['username'] = $username;
 		$_SESSION['level_akun'] = "1";
 		// alihkan ke halaman dashboard pegawai
-		header("location:src/pasien.php");
+		header("location:pasien.php");
  
 	// cek jika user login sebagai pengurus
 	}else if($data['level_akun']=="3"){
