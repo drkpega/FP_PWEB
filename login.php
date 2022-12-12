@@ -1,5 +1,6 @@
 <?php
- include ('src/components/Head.php')
+ include ('src/components/Head.php');
+  include ('koneksi.php');
 ?>
 
 <main>
