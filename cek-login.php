@@ -11,7 +11,7 @@ $password = $_POST['password'];
 
  
 // menyeleksi data user dengan username dan password yang sesuai
-$login = mysqli_query($koneksi,"select * from akun where username ='$username' and password ='$password'");
+$login = mysqli_query($conn,"select * from akun where username ='$username' and password ='$password'");
 // menghitung jumlah data yang ditemukan
 $cek = mysqli_num_rows($login);
  
