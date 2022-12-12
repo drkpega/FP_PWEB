@@ -6,7 +6,7 @@
   <section class="login">
     <div class="min-w-md flex flex-col items-center px-4 py-2 bg-white rounded-2xl">
       <h1 class="font-bold text-5xl mt-9">Login</h1>
-      <form class="min-w-81" action="cek-login.php">
+      <form class="min-w-81">
         <div class="space-y-3">
           <label>
             <p class="mt-9 text-2xl">Username</p>
