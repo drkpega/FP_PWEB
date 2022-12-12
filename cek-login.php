@@ -6,12 +6,12 @@ session_start();
 include ("koneksi.php");
  
 // menangkap data yang dikirim dari form login
-$username = $_POST['login-input mt-1'];
-$password = $_POST['login-input mt-1'];
+$username = $_POST['username'];
+$password = $_POST['password'];
 
  
 // menyeleksi data user dengan username dan password yang sesuai
-$login = mysqli_query($koneksi,"select * from akun where username='$username' and password='$password'");
+$login = mysqli_query($koneksi,"select * from akun where username ='$username' and password ='$password'");
 // menghitung jumlah data yang ditemukan
 $cek = mysqli_num_rows($login);
  

@@ -11,13 +11,13 @@
           <label>
             <p class="mt-9 text-2xl">Username</p>
           </label>
-          <input type="text" class="login-input mt-1" placeholder="Username / Email" />
+          <input type="text" class="login-input mt-1" id="username" placeholder="Username / Email" />
         </div>
         <div class="space-y-3">
           <label>
             <p class="mt-9 text-2xl">Password</p>
           </label>
-          <input type="password" class="login-input mt-1" placeholder="Password" />
+          <input type="password" class="login-input mt-1" id="password" placeholder="Password" />
           <p class="text-end text-sm">Lupa Password?</p>
         </div>
         <!-- Ingat Saya -->
