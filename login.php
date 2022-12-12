@@ -1,23 +1,24 @@
 <?php
- include ('src/components/Head.php')
+ include ('src/components/Head.php');
+  include ('koneksi.php');
 ?>
 
 <main>
   <section class="login">
     <div class="min-w-md flex flex-col items-center px-4 py-2 bg-white rounded-2xl">
       <h1 class="font-bold text-5xl mt-9">Login</h1>
-      <form class="min-w-81">
+      <form class="min-w-81" action="cek-login.php" method="POST">
         <div class="space-y-3">
           <label>
             <p class="mt-9 text-2xl">Username</p>
           </label>
-          <input type="text" class="login-input mt-1" id="username" placeholder="Username / Email" />
+          <input type="text" class="login-input mt-1" name="username" placeholder="Username / Email" />
         </div>
         <div class="space-y-3">
           <label>
             <p class="mt-9 text-2xl">Password</p>
           </label>
-          <input type="password" class="login-input mt-1" id="password" placeholder="Password" />
+          <input type="password" class="login-input mt-1" name="password" placeholder="Password" />
           <p class="text-end text-sm">Lupa Password?</p>
         </div>
         <!-- Ingat Saya -->
