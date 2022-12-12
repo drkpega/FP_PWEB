@@ -1,7 +1,13 @@
+<?php
+  include ('koneksi.php');
+
+  session_start();
+?>
+
 <main>
   <section class="bg-green-primary">
     <div class="container py-9">
-      <p class="text-3xl font-bold underline">Hai Syss... </p>
+      <p class="text-3xl font-bold underline">Hai <b><?php echo $session['username'] ?></b> </p>
       <p class="text-xl font-bold mt-9 text-center"> Cek kelengkapan profilmu dulu yuk!!</p>
       <p class="text-xl font-bold mt-9">Jadwal Reservasi</p>
       <!-- Table Jadwal Reservasi -->
