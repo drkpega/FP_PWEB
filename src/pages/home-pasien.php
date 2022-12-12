@@ -117,19 +117,19 @@
               <div class="bg-green-300 rounded-2xl">
                 <img src="/public/assets/images/layanan-khusus/1.png" alt="" width="100%" height="100%">
               </div>
-              <p class="text-center">Tes COVID </p>
+              <p class="text-center"><a href="src/pages/home-layanan-khusus.php">Tes COVID</a></p>
             </div>
             <div>
               <div class="bg-green-300 rounded-2xl">
                 <img src="/public/assets/images/layanan-khusus/2.png" alt="" width="100%" height="100%">
               </div>
-              <p class="text-center">Vaksin </p>
+              <p class="text-center"><a href="src/pages/home-layanan-vaksin.php">Vaksin</a></p>
             </div>
             <div>
               <div class="bg-green-300 rounded-2xl">
                 <img src="/public/assets/images/layanan-khusus/3.png" alt="" width="100%" height="100%">
               </div>
-              <p class="text-center">Terapi</p>
+              <p class="text-center"><a href="src/pages/home-layanan-terapi.php">Terapi</a></p>
             </div>
           </div>
         </div>
