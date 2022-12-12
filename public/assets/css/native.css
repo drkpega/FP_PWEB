@@ -11,6 +11,18 @@
 .mt-1 {
   margin-top: 0.25rem;
 }
+.mt-6 {
+  margin-top: 1.5rem;
+}
+.ml-3 {
+  margin-left: 0.75rem;
+}
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+.ml-6 {
+  margin-left: 1.5rem;
+}
 .mt-9 {
   margin-top: 2.25rem;
 }
@@ -123,6 +135,10 @@ textarea {
 }
 .mt-3 {
   margin-top: 0.75rem;
+}
+ul {
+  margin: 0;
+  padding: 0;
 }
 .mt-9 {
   margin-top: 2.25rem;
@@ -282,8 +298,17 @@ body {
   margin: 0 auto;
   padding: 1rem 1rem;
 }
+.col-6 {
+  width: 12%;
+}
 .col-12 {
   width: 24%;
+}
+.h-25 {
+  height: 25px;
+}
+.h-30 {
+  height: 30px;
 }
 .ml-12 {
   margin-left: 3rem;
@@ -303,6 +328,9 @@ body {
 .mix-blend-multiply {
   mix-blend-mode: multiply;
 }
+.h-270 {
+  height: 200px;
+}
 .grid-cols-6 {
   grid-template-columns: repeat(6, 1fr);
 }
@@ -314,6 +342,9 @@ body {
 }
 .col-span-2 {
   grid-column: span 2 / span 2;
+}
+.col-span-3 {
+  grid-column: span 3 / span 3;
 }
 .col-span-4 {
   grid-column: span 4 / span 4;
