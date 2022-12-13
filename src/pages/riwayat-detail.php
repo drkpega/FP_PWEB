@@ -69,21 +69,21 @@
             <tbody>
               <tr>
                 <td>
-                  <ul class="text-left">
+                  <ol class="text-left">
                     <li>Batuk</li>
                     <li>Pilek</li>
                     <li>Deman Tinggi (40C)</li>
                     <li>Keram Perut</li>
-                  </ul>
+                  </ol>
                 </td>
                 <td>
                   COVID - 19
                 </td>
                 <td>
-                  <ul class="text-left">
+                  <ol class="text-left">
                     <li>Tes Darah</li>
                     <li>Test Antigen</li>
-                  </ul>
+                  </ol>
                 </td>
                 <td>
                   Flu Berat
