@@ -104,22 +104,22 @@
             <tr class="h-100">
               <td>RS Bhayangkara Surabaya</td>
               <td>Jl. Ahmad Yani No.116, Ketintang, Kec. <br />Gayungan, Kota SBY, Jawa Timur 60231</td>
-              <td><a class="button-green" href="/daftar-dokter">Daftar Dokter</a></td>
+              <td><a class="button-green" href="/daftar-dokter.php">Daftar Dokter</a></td>
             </tr>
             <tr class="h-100">
               <td>RS Bhayangkara Sidoarjo</td>
               <td>Jl. Raya Porong No.1, Porong, Kec. Porong,</br> Kabupaten Sidoarjo, Jawa Timur 61274</td>
-              <td><a class="button-green" href="/daftar-dokter">Daftar Dokter</a></td>
+              <td><a class="button-green" href="/daftar-dokter.php">Daftar Dokter</a></td>
             </tr>
             <tr class="h-100">
               <td>RS Bhayangkara Surabaya</td>
               <td>Ngaglik, Batu, Batu City, East Java 65311</td>
-              <td><a class="button-green" href="/daftar-dokter">Daftar Dokter</a></td>
+              <td><a class="button-green" href="/daftar-dokter.php">Daftar Dokter</a></td>
             </tr>
             <tr class="h-100">
               <td>RS Bhayangkara Surabaya</td>
               <td>Jl. I Gusti Ngurah Rai No.25 & 27, Bago, Kec.<br /> Tulungagung, Kabupaten Tulungagung, Jawa Timur 66218</td>
-              <td><a class="button-green" href="/daftar-dokter">Daftar Dokter</a></td>
+              <td><a class="button-green" href="/daftar-dokter.php">Daftar Dokter</a></td>
             </tr>
           </tbody>
         </table>

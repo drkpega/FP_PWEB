@@ -3,7 +3,7 @@
 include '../src/components/Head.php';
 
 echo "<body>";
-include '../src/layout/Navbar.php';
+include '../src/layout/pasien/Navbar.php';
 ?>
   <main>
     <section class="bg-green-primary">
